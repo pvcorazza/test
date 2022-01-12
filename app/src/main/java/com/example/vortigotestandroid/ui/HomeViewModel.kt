@@ -11,9 +11,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 // TODO (opcional): Completar a camada da ViewModel, realizando as chamadas necessárias
-class HomeViewModel : ViewModel() {
-
-    private val repository: GithubRepository = GithubRepository()
+class HomeViewModel (private val repository : GithubRepository) : ViewModel() {
 
     private val _githubUser: MutableLiveData<User> = MutableLiveData()
     val githubUser: LiveData<User> = _githubUser

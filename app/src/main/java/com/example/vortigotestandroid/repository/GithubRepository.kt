@@ -1,12 +1,13 @@
 package com.example.vortigotestandroid.repository
 
 import com.example.vortigotestandroid.api.GithubApi
+import com.example.vortigotestandroid.model.User
+import retrofit2.Response
 
-// TODO (opcional): Completar a camada do repositório, realizando as chamadas necessárias
-class GithubRepository {
+// TODO (opcional): Completar a interface do repositório
 
-    private val client = GithubApi.retrofitService
+interface GithubRepository {
 
-    suspend fun getGithubUser() = client.getGithubUser()
+    suspend fun getGithubUser(): Response<User>
 
 }
