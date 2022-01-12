@@ -1,7 +1,9 @@
 package com.example.vortigotestandroid.repository
 
-// TODO (opcional): Completar a camada do repositório, realizando as chamadas necessárias
-class GithubRepository {
+// TODO (opcional): Completar a interface do repositório
 
+interface GithubRepository {
+
+    fun getGithubUser()
 
 }
