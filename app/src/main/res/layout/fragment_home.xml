@@ -14,7 +14,7 @@
 
             <!--        TODO: Exibir o avatar do usuário, recebido através do campo "avatar_url"-->
             <ImageView
-                android:id="@+id/tv_avatar"
+                android:id="@+id/iv_avatar"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_marginTop="16dp"
@@ -33,7 +33,7 @@
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_avatar"
+                app:layout_constraintTop_toBottomOf="@+id/iv_avatar"
                 tools:text="Nome do usuário" />
 
             <!--        TODO: Exibir o nome do usuário, recebido através do campo "login"-->
