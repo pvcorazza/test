@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    TODO: Adicionar o HomeFragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:name="com.example.vortigotestandroid.ui.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>
